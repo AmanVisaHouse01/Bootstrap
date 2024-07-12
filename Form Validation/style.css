@@ -1,0 +1,53 @@
+.jumbotron{
+    background-image: url('./pics/jumbo3.jpg');
+    background-position: 0%;
+    background-size:cover;
+    color: white;
+    text-align: center;
+    margin-top: 57px;
+    text-decoration: rgb(11, 225, 225);
+    text-wrap: auto;
+}
+#content{
+    text-align: center;
+}
+.card-deck{
+    display: flex;
+    width:100%;
+    gap : 10px;
+    padding-top: 20px;
+    
+}
+.card{
+    /* width:"25%"; */
+    height:100vh;
+    column-count: 3;
+    column-width: 30%;
+    
+} 
+body{
+    
+    background-color: black;
+    color: white;
+    
+}
+.m{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.navbar{
+    size: large;
+    background-color: rgb(35, 197, 197);
+    /* color: white;
+    display:flex; */
+    /* bg-body-tertiary */
+}
+#footer{
+    /* background-image: url('./pics/solid\ blue.webp'); */
+    background-color: rgb(35, 197, 197);
+    margin-top: 30px;
+    max-width: 100%;
+    height: 300px;
+    text-align: center;
+    padding-top: 10%;
+}
